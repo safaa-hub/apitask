@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import User
+from myproject.myapp.models import User
 from marshmallow_sqlalchemy import SQLAlchemySchema, auto_field
 
 
